@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: projet_final
+    schema: projet_final
+    tables:
+      - name: orders      
+      - name: order_items
+      - name: brands
+      - name: categories
+      - name: customers
+      - name: products
+      - name: staffs
+      - name: stocks
+      - name: stores
