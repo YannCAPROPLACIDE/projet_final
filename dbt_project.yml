@@ -15,9 +15,12 @@ snapshot-paths: ["snapshots"]
 models:
   projet_final:
     staging:
+      +schema: staging
       +materialized: view
     intermediate:
+      +schema: intermediate
       +materialized: view
     mart:
+      +schema: mart
       +materialized: table
     
