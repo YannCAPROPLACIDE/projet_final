@@ -1,10 +1,10 @@
 SELECT
-  `discount`,
   `item_id`,
   `list_price`,
   `order_id`,
   `product_id`,
   `quantity`,
-  quantity * list_price as shipping_cost
+  `discount`,
+  round(1*(quantity * list_price + discount), 2) as total_order_amount
 from {{source('projet_final', 'order_items')}}
   
