@@ -1,0 +1,3 @@
+models:
+  - name: mrt_daily_total_items_by_store_name
+    description: This model contains information about daily total items report by store name
