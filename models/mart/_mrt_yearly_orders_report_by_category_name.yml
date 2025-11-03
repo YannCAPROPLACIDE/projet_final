@@ -1,3 +1,0 @@
-models:
-  - name: mrt_yearly_orders_report_by_category_name
-    description: This model contains information about yearly order report by category name

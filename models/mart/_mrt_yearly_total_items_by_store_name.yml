@@ -1,3 +1,0 @@
-models:
-  - name: mrt_yearly_total_items_by_store_name
-    description: This model contains information about yearly total items report by store name
