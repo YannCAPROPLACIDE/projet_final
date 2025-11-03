@@ -8,7 +8,7 @@ This model generates a yearly summary of number of products sold, including the 
   Brand_name
   Category_name.
   Product_name.
-  Total_quantity_products_sold
+  Total_quantity_products_sold.
 
 This allows for analysis of performance by number of products sold.
 
